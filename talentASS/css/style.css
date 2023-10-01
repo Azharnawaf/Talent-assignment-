@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: Bold;
+    src: url(/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Medium;
+    src: url(/font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:thin;
+    src: url(/font/Poppins-Thin.ttf);
+}
+header{
+    margin: 40px;
+}
+.contianer{
+    margin: 40px;
+}
+.listNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.listNav li{
+    list-style-type: none;
+    margin-right: 16px;
+
+}
+.listNav a{
+    font-family: Regular;
+    color:#000;
+}
+.listNav a:hover{
+    color:#D1884F;
+}
+.listNav span{
+    margin: 0px 12px;
+}
+/* **********2 */
+ .contianer p{
+    font-family: Medium;
+    color: #3BBADB; 
+    font-size: 20px;
+}
+ .contianer h2{
+    font-size: 2.5rem;
+    font-family: Bold;
+    color: #008AAA;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+ .contianer span{
+    color:#D1884F;
+
+}
+ .contianer .paraInfo{
+    color: #000;
+    font-family: Regular;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+.more{
+      color: #3BBADB; 
+ 
+}
+.but{
+    color: #008AAA;
+    font-family: Regular;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px solid #008AAA;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.but:hover{
+    background: #008AAA;
+    color: #fff;
+    box-shadow: 4px 4px 6px #a9dde9;
+}
+.myInfo{
+    display: flex;
+    justify-content: space-between;
+   margin: 80px 0px 60px 0px;
+}
+.myphoto{
+    width: 30%;
+    margin-left: 20px;
+     background-color: rgb(240, 235, 235);
+
+}
+/* *******3 */
+.education{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.education span{
+    color: #D1884F;
+    font-family: Bold;
+    font-size: 1.5rem;
+    margin-right: 30px;
+
+}
+.education p{
+    color: #000;
+}
+.education .site{
+    color: #c4c4c4;
+}
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+section .skillPara{
+     font-size: 2.5rem;
+    font-family: Bold;
+    color: #008AAA;
+    margin-bottom: 0px;
+}
+.skills li{
+    margin-bottom: 3px;
+    font-size:  18px;
+    font-family: Regular;
+}
+.whealSkill{
+    width: 20%;
+    background-color: rgb(240, 235, 235);
+
+}
+h3{
+    font-family: Bold;
+    margin-bottom: 12px;
+}
+footer{
+    padding: 20px;
+    background:#000;
+}
+.footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer strong{
+    color: #D1884F;
+
+}
+footer a{
+    color: #3BBADB;
+}
+.fa-envelope{
+  color: #3BBADB;
+  margin-right: 3px;
+
+}
+.fa-mobile-alt{
+      color: #3BBADB;
+      margin-right: 3px;
+}
+.fa-location-pin{
+      color: #3BBADB;
+
+}
+/* Responsive */
+@media (max-width:991px){
+    header{
+    margin: 30px;
+}
+.contianer{
+    margin: 30px;
+}
+.listNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.listNav li{
+margin-right: 8px;
+
+}
+
+.listNav span{
+    margin: 0px 4px;
+}
+ .contianer p{
+    font-size: 18px;
+}
+ .contianer h2{
+    font-size: 1.5rem;
+    margin-top:30px;
+    margin-bottom: 30px;
+
+}
+
+ .contianer .paraInfo{
+    margin-bottom: 20px;
+
+}
+.but{ 
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+.myInfo{
+    display: flex;
+    justify-content: space-between;
+   margin: 20px 0px 15px 0px;
+}
+.myphoto{
+    width: 30%;
+}
+}
+@media(max-width:720px){
+    .listNav a{
+ font-size: 12px;
+}
+    .contianer p{
+    font-size: 14px;
+}
+ .contianer h2{
+    font-size: 1rem;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+ .contianer .paraInfo{
+    margin-bottom: 20px;
+}
+.but{ 
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+}
+.myInfo{
+display: flex;
+flex-direction: column-reverse;
+}
+.myphoto{
+    width: 80%;
+        margin-bottom: 20px;
+
+}
+.educationImg{
+    width: 60%;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+}
+.education span{
+    font-size: 16px;
+}
+
+.aboutInfo{
+    display: block;
+}
+.skills{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:start;
+    
+}
+section .skillPara{
+     font-size: 1rem;
+}
+.skills li{
+    margin-bottom: 3px;
+    font-size:  14px;
+}
+.whealSkill{
+    width: 50%;
+    background-color: rgb(240, 235, 235);
+}
+h3{
+    font-size: 15px;
+}
+footer{
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+}
